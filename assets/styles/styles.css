@@ -70,7 +70,8 @@ item {
     /* Font and Text */
     text-align: center;
     /* Margin, Display, and Padding */
-    margin: -0.02rem;
+    margin-top: -0.02rem;
+
 
     /* Color */
 
@@ -89,5 +90,74 @@ item {
     /* Float and Position */
 }
 
+.top-main {
+    position: relative;
+}
+
+.slideshow {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+    border-width: 50%;
+    width: 100%;
+    /* Color */
+    background-color: var(--rich-black);
+    /* Float and Position */ 
+}
+
 
 /* ------------------------ Tags ------------------------ */
+html {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+
+    /* Color */
+    color: var(--verdigris);
+    background-color: var(--rich-black);
+    /* Float and Position */ 
+    
+}
+
+h1 {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Color */
+
+    /* Float and Position */ 
+}
+
+a {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+
+    /* Color */
+    color: var(--cerulean);
+    /* Float and Position */ 
+}
+
+a:hover {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+
+    /* Color */
+    color: var(--ash-gray);
+    /* Float and Position */ 
+}
+
+a:visited {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+
+    /* Color */
+    color: var(--cornsilk);
+    /* Float and Position */ 
+}
