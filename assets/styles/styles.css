@@ -1,0 +1,93 @@
+/* Template
+item {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+
+    /* Color */
+
+    /* Float and Position */ 
+
+    /*
+}
+*/
+
+
+/* ------------------------ Colors ------------------------ */
+:root {
+    /* Main */
+    --desert-sand: #ecc8afff;
+    --melon: #e7ad99ff;
+    --old-rose: #ce796bff;
+    --persian-orange: #c18c5dff;
+    --paynes-gray: #495867ff;
+
+    /* Alt */
+    --rich-black: #0b2027ff;
+    --cerulean: #40798cff;
+    --verdigris: #70a9a1ff;
+    --ash-gray: #cfd7c7ff;
+    --cornsilk: #f6f1d1ff;
+    }
+
+/* ------------------------ Fonts ------------------------ */
+@font-face {
+    font-family: FiraCode;
+    src: url(../fonts/fira-code/fira-code-cyrillic-400-normal.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: FiraSans;
+    src: url(../fonts/fira-sans/fira-sans-cyrillic-400-normal.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/raleway/raleway-cyrillic-400-normal.woff2) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ------------------------ Classes ------------------------ */
+/* Navigation */
+.nav-bar {
+    /* Font and Text */
+    text-align: center;
+
+    /* Margin, Display, and Padding */
+
+    /* Color */
+
+    /* Float and Position */ 
+
+}
+
+.nav-list {
+    /* Font and Text */
+    text-align: center;
+    /* Margin, Display, and Padding */
+    margin: -0.02rem;
+
+    /* Color */
+
+    /* Position and Style */
+    list-style: none;
+}
+
+.nav-item {
+    /* Font and Text */
+    text-align: center;
+    /* Margin, Display, and Padding */
+    display: inline-block;
+    margin-inline: 1.1rem;
+    /* Color */
+
+    /* Float and Position */
+}
+
+
+/* ------------------------ Tags ------------------------ */
