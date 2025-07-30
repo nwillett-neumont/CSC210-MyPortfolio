@@ -7,7 +7,8 @@ const attributionDisplay = document.getElementById('attribution');
 // Couldn't use the other API without proxy magic, so I found this one.
 // I needed something called a CORS proxy, and I got it working to discover that it was meant only for testing, so I went API hunting.
 */
-let quoteUrl = 'https://thequoteshub.com/api/';
+const quoteUrl = 'https://zenquotes.io/api/random';
+const corsProxy = `https://whateverorigin.org/get?url=${encodeURIComponent(quoteUrl)}`
 // Event Listeners
 
 // Run
@@ -15,9 +16,10 @@ fetchQuote();
 
 // Functions
 function fetchQuote() {
-    fetch(quoteUrl)
+    fetch(corsProxy)
     .then(response => response.json())
     .then(data => {
+        data = JSON.parse(data.contents)
         console.log(data);
         setHtml(data);
     })
@@ -25,6 +27,6 @@ function fetchQuote() {
 }
 
 function setHtml(data) {
-    quoteDisplay.innerHTML = data.text;
-    attributionDisplay.innerHTML = `-- ${data.author}`;
+    quoteDisplay.innerHTML = data[0].q;
+    attributionDisplay.innerHTML = `-- ${data[0].a}`;
 }
