@@ -23,13 +23,6 @@ item {
     --cornsilk: #f6f1d1ff;
     --brunswick-green: #31493cff;
     --viridian: #003d33ff;
-
-    /* Alt */
-    --desert-sand: #ecc8afff;
-    --melon: #e7ad99ff;
-    --old-rose: #ce796bff;
-    --persian-orange: #c18c5dff;
-    --paynes-gray: #495867ff;
     }
 
 /* ------------------------ Fonts ------------------------ */
@@ -268,6 +261,47 @@ item {
     color: var(--rich-black);
     background-color: var(--cerulean);
 
+    /* Float and Position */
+    position: relative;
+}
+
+.nathan-about {
+    /* Font and Text */
+    
+    /* Margin, Display, and Padding */
+    border-radius: 24px;
+    width: 25%;
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    margin-top: 12rem;
+    margin-inline: 42rem;
+    /* Color */
+    background-color: var(--brunswick-green);
+    /* Float and Position */
+}
+
+.about {
+    /* Font and Text */
+    text-align: left;
+    /* Margin, Display, and Padding */
+    margin-top: 2rem;
+    margin-inline: 16rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 40px;
+    /* Color */
+    background-color: var(--brunswick-green);
+    /* Float and Position */
+    position: relative;
+}
+
+.contact-info {
+    /* Font and Text */
+     text-align: left;
+    /* Margin, Display, and Padding */
+    margin-inline: 16rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 40px;
+    /* Color */
+    background-color: var(--brunswick-green);
     /* Float and Position */
     position: relative;
 }
