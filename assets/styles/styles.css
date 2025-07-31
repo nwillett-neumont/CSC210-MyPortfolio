@@ -193,13 +193,14 @@ item {
     text-align: center;
     /* Margin, Display, and Padding */
     margin-top: 8rem;
-    margin-inline: 16rem;
+    margin-inline: 18rem;
     padding: 0.8rem 0.8rem 0.8rem 0.8rem;
     border-radius: 40px;
     /* Color */
     background-color: var(--brunswick-green);
     /* Float and Position */
     position: absolute;
+    align-content: center;
 }
 
 
@@ -241,6 +242,34 @@ item {
     /* Color */
 
     /* Float and Position */
+}
+
+.project-image {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+
+    /* Color */
+
+    /* Float and Position */
+    position: absolute;
+    top: 30%;
+}
+
+.project-description {
+    /* Font and Text */
+
+    /* Margin, Display, and Padding */
+    margin-top: 45rem;
+    margin-inline: 16rem;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 40px;
+    /* Color */
+    color: var(--rich-black);
+    background-color: var(--cerulean);
+
+    /* Float and Position */
+    position: relative;
 }
 
 /* ------------------------ Tags ------------------------ */
